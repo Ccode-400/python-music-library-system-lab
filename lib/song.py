@@ -10,4 +10,10 @@ class Song:
         self.artist = artist
         self.genre = genre
 
+        self.__class__.add_song_to_count()
+        self.__class__.add_to_genres(genre)
+        self.__class__.add_to_artists(artist)
+        self.__class__.add_to_genre_count(genre)
+        self.__class__.add_to_artist_count(artist)
+
         
