@@ -10,3 +10,4 @@ class Song:
         self.artist = artist
         self.genre = genre
 
+        
